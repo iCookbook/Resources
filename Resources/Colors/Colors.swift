@@ -7,7 +7,9 @@
 
 import UIKit
 
-/// To support dark theme, I've implemented a wrapper for all the colors. If the version of iOS allows us to use dark mode colors, it will use them.
+/// Обёртка над классом `UIColor`. Это необходимо для того, чтобы когда пользователь имел версию iOS выше 13-й, у него была поддержка тёмной темы.
+///
+/// Все цвета - статические константы, кэшированные в памяти для лучшей производительности.
 public enum Colors {
     public static let systemBackground: UIColor = {
         if #available(iOS 13.0, *) {
