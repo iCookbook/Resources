@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Resources
+
+  Created by Егор Бадмаев on 27.10.2022.
+  
+*/
+
+// Discover
+discover = "Discover";
+
+// Search
+search = "Search";
+
+// Personal
+personal = "Personal";
