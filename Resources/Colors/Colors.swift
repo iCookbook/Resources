@@ -18,4 +18,13 @@ public enum Colors {
             return UIColor.white
         }
     }()
+    
+    public static let secondaryLabel: UIColor = {
+        if #available(iOS 13.0, *) {
+            return UIColor.secondaryLabel
+        } else {
+            // TODO: Вычислить этот цвет
+            return UIColor.darkText
+        }
+    }()
 }
