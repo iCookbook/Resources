@@ -19,11 +19,27 @@ public enum Colors {
         }
     }()
     
+    public static let systemGroupedBackground: UIColor = {
+        if #available(iOS 13.0, *) {
+            return UIColor.systemGroupedBackground
+        } else {
+            return UIColor(red: 249/255, green: 249/255, blue: 249/255, alpha: 1.0)
+        }
+    }()
+    
+    public static let transparentTitleLabel: UIColor = {
+        if #available(iOS 13.0, *) {
+            return UIColor.label
+        } else {
+            return UIColor(red: 0, green: 0, blue: 0, alpha: 0.8)
+        }
+    }()
+    
     public static let secondaryLabel: UIColor = {
         if #available(iOS 13.0, *) {
             return UIColor.secondaryLabel
         } else {
-            return UIColor(red: 138/255, green: 138/255, blue: 142/255, alpha: 1.0)
+            return UIColor(red: 146/255, green: 146/255, blue: 150/255, alpha: 0.85)
         }
     }()
     
@@ -31,7 +47,7 @@ public enum Colors {
         if #available(iOS 13.0, *) {
             return UIColor.secondaryLabel
         } else {
-            return UIColor(red: 196/255, green: 196/255, blue: 198/255, alpha: 1.0)
+            return UIColor(red: 208/255, green: 208/255, blue: 210/255, alpha: 0.8)
         }
     }()
 }
