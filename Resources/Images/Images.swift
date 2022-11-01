@@ -15,4 +15,6 @@ public enum Images {
         public static let search = UIImage(named: "magnifyingglass", in: frameworkBundle, compatibleWith: nil)
         public static let person = UIImage(named: "person.fill", in: frameworkBundle, compatibleWith: nil)
     }
+    
+    public static let sampleRecipeImage = UIImage(named: "SampleRecipeImage", in: frameworkBundle, compatibleWith: nil)
 }
