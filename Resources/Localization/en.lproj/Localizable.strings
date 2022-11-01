@@ -8,6 +8,8 @@
 
 // Discover
 discover = "Discover";
+dishOfTheDay = "Dish of the day";
+mockRecipeTitle = "tasty dish";
 
 // Search
 search = "Search";

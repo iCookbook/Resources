@@ -8,6 +8,8 @@
 public enum Texts {
     public enum Discover {
         public static let title = "discover".localized
+        public static let dishOfTheDay = "dishOfTheDay".localized
+        public static let mockRecipeTitle = "mockRecipeTitle".localized
     }
     
     public enum Search {

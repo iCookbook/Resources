@@ -8,6 +8,8 @@
 
 // Discover
 discover = "Сегодня";
+dishOfTheDay = "Блюдо дня";
+mockRecipeTitle = "вкусным блюдом";
 
 // Search
 search = "Поиск";
