@@ -29,9 +29,9 @@ public enum Colors {
     
     public static let transparentTitleLabel: UIColor = {
         if #available(iOS 13.0, *) {
-            return UIColor.label
+            return UIColor.label.withAlphaComponent(0.8)
         } else {
-            return UIColor(red: 0, green: 0, blue: 0, alpha: 0.8)
+            return UIColor.black.withAlphaComponent(0.8)
         }
     }()
     
@@ -43,9 +43,18 @@ public enum Colors {
         }
     }()
     
+    public static let lightSecondaryLabel: UIColor = {
+        if #available(iOS 13.0, *) {
+            // TODO: Исправить это, чтобы выглядело нормально
+            return UIColor.secondaryLabel
+        } else {
+            return UIColor(red: 230/255, green: 230/255, blue: 230/255, alpha: 0.9)
+        }
+    }()
+    
     public static let tertiaryLabel: UIColor = {
         if #available(iOS 13.0, *) {
-            return UIColor.secondaryLabel
+            return UIColor.tertiaryLabel
         } else {
             return UIColor(red: 208/255, green: 208/255, blue: 210/255, alpha: 0.8)
         }
