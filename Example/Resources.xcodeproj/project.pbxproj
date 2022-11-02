@@ -27,7 +27,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		616606D07767C0379B79A649 /* Pods_Resources_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resources_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DF37F3BAC123D12D59D66B /* Resources.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Resources.podspec; path = ../Resources.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8481D49F962956881AE6BDC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		99E9C724CA00E8668CCC0410 /* Pods-Resources_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resources_Example.debug.xcconfig"; path = "../../../../Pods/Target Support Files/Pods-Resources_Example/Pods-Resources_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9AF2BAA424E64EA79D6AF49E /* Pods-Resources_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resources_Tests.release.xcconfig"; path = "Target Support Files/Pods-Resources_Tests/Pods-Resources_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D4789E78549D0A4A0E069C9D /* Pods_Resources_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resources_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +102,6 @@
 			children = (
 				65DF37F3BAC123D12D59D66B /* Resources.podspec */,
 				0AC4B33E4AC276D636CF8AA2 /* README.md */,
-				8481D49F962956881AE6BDC0 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -220,11 +218,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Resources_Example/Pods-Resources_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CommonUI/CommonUI.framework",
+				"${BUILT_PRODUCTS_DIR}/Resources/Resources.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Resources.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
