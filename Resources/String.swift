@@ -10,6 +10,6 @@ import Foundation
 extension String {
     /// For simplify localizing texts in the whole application
     var localized: String {
-        NSLocalizedString(self, bundle: Images.frameworkBundle ?? .main, comment: "")
+        NSLocalizedString(self, bundle: Images.bundle, comment: "")
     }
 }

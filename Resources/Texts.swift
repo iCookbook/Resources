@@ -5,6 +5,7 @@
 //  Created by Егор Бадмаев on 27.10.2022.
 //
 
+/// Wrapper for all the strings in the application.
 public enum Texts {
     public enum Discover {
         public static let title = "discover".localized

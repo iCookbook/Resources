@@ -1,0 +1,6 @@
+framework module Pods_Resources_Example {
+  umbrella header "Pods-Resources_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
