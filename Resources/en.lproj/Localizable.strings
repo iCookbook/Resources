@@ -17,7 +17,7 @@ search = "Search";
 // Personal
 personal = "Personal";
 
-// Error
+// Errors
 "oops" = "Oops!";
 "error restart app" = "Please, restart the application and try again";
 "error something went wrong" = "Something went wrong... Please, restart the application try again later";
