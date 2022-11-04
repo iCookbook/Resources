@@ -16,3 +16,10 @@ search = "Search";
 
 // Personal
 personal = "Personal";
+
+// Error
+"oops" = "Oops!";
+"error restart app" = "Please, restart the application and try again";
+"error something went wrong" = "Something went wrong... Please, restart the application try again later";
+"error unexpected error" = "An unexpected error has occurred. Please, restart the application and try again";
+"error internet error" = "Please, check your internet connection or try again later";

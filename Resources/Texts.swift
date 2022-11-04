@@ -20,4 +20,12 @@ public enum Texts {
     public enum Personal {
         public static let title = "personal".localized
     }
+    
+    public enum Errors {
+        public static let oops = "oops".localized
+        public static let restartApp = "error restart app".localized
+        public static let somethingWentWrong = "error something went wrong".localized
+        public static let unexpectedError = "error unexpected error".localized
+        public static let internetError = "error internet error".localized
+    }
 }
