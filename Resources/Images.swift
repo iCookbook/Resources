@@ -17,7 +17,7 @@ public final class Images {
         public static let person = UIImage(named: "person.fill", in: Images.bundle, compatibleWith: nil)
     }
     
-    public static let sampleRecipeImage = UIImage(named: "SampleRecipeImage", in: Images.bundle, compatibleWith: nil)
+    public static let sampleRecipeImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil)
 }
 
 extension Images {
