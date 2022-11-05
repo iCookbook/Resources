@@ -8,7 +8,7 @@
 
 // Discover
 discover = "Сегодня";
-dishOfTheDay = "Блюдо дня";
+dishOfTheDay = "Блюдо\nдня";
 mockRecipeTitle = "вкусным блюдом";
 
 // Search
