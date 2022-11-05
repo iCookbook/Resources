@@ -10,6 +10,7 @@
 discover = "Discover";
 dishOfTheDay = "Dish\nof the day";
 mockRecipeTitle = "tasty dish";
+"discover empty collection view text" = "Due to some problems, you can't see the list of recipes here";
 
 // Search
 search = "Search";

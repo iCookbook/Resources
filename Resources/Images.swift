@@ -17,7 +17,11 @@ public final class Images {
         public static let person = UIImage(named: "person.fill", in: Images.bundle, compatibleWith: nil)
     }
     
-    public static let network = UIImage(named: "network", in: Images.bundle, compatibleWith: nil)
+    public enum Discover {
+        public static let network = UIImage(named: "network", in: Images.bundle, compatibleWith: nil)
+        public static let bookFilled = UIImage(named: "book.closed.fill", in: Images.bundle, compatibleWith: nil)
+    }
+    
     public static let sampleRecipeImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil)
 }
 

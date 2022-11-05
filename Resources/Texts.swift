@@ -11,6 +11,7 @@ public enum Texts {
         public static let title = "discover".localized
         public static let dishOfTheDay = "dishOfTheDay".localized
         public static let mockRecipeTitle = "mockRecipeTitle".localized
+        public static let emptyCollectionViewText = "discover empty collection view text".localized
     }
     
     public enum Search {

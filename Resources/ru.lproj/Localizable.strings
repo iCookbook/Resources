@@ -10,6 +10,7 @@
 discover = "Сегодня";
 dishOfTheDay = "Блюдо\nдня";
 mockRecipeTitle = "вкусным блюдом";
+"discover empty collection view text" = "Из-за некоторых проблем вы не можете увидеть список рецептов здесь";
 
 // Search
 search = "Поиск";
