@@ -22,7 +22,7 @@ public final class Images {
         public static let bookFilled = UIImage(named: "book.closed.fill", in: Images.bundle, compatibleWith: nil)
     }
     
-    public static let sampleRecipeImage: UIImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil) ?? UIImage()
+    public static let sampleRecipeImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil)
 }
 
 extension Images {

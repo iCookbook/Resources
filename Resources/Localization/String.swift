@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    /// For simplify localizing texts in the whole application
+    /// Simplifies localizing texts.
     var localized: String {
         NSLocalizedString(self, bundle: Images.bundle, comment: "")
     }
