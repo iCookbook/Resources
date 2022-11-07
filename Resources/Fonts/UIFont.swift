@@ -28,12 +28,13 @@ extension UIFont {
         var error: Unmanaged<CFError>?
         let success = CTFontManagerRegisterGraphicsFont(font, &error)
         
+        guard error == nil else {
+            fatalError("Some error occurred: \(String(describing: error))")
+        }
+        
         guard success else {
             print("Error registering font: maybe it was already registered.")
             return
-        }
-        guard error == nil else {
-            fatalError("Some error occurred: \(String(describing: error))")
         }
     }
 }
