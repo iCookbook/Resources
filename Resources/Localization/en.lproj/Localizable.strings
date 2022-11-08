@@ -12,6 +12,15 @@ dishOfTheDay = "Dish\nof the day";
 mockRecipeTitle = "tasty dish";
 "discover empty collection view text" = "Due to some problems, you can't see the list of recipes here";
 
+// Recipe Details
+"details title description" = "Description";
+"details title ingredients" = "Ingredients";
+"details recipe description1" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
+"details recipe description2" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
+"details recipe description3" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
+"details recipe description4" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
+"details recipe description5" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
+
 // Search
 search = "Search";
 

@@ -14,6 +14,17 @@ public enum Texts {
         public static let emptyCollectionViewText = "discover empty collection view text".localized
     }
     
+    public enum RecipeDetails {
+        public static let titleDescription = "details title description".localized
+        public static let titleIngredients = "details title ingredients".localized
+        
+        public static let recipeDescription1 = "details recipe description1".localized
+        public static let recipeDescription2 = "details recipe description2".localized
+        public static let recipeDescription3 = "details recipe description3".localized
+        public static let recipeDescription4 = "details recipe description4".localized
+        public static let recipeDescription5 = "details recipe description5".localized
+    }
+    
     public enum Search {
         public static let title = "search".localized
     }

@@ -12,6 +12,14 @@ dishOfTheDay = "Блюдо\nдня";
 mockRecipeTitle = "вкусным блюдом";
 "discover empty collection view text" = "Из-за некоторых проблем вы не можете увидеть список рецептов здесь";
 
+// Recipe Details
+"details title description" = "Описание";
+"details title ingredients" = "Ингредиенты";
+"Fat" = "Жиры";
+"Carbs" = "Углеводы";
+"Protein" = "Белки";
+"Cholesterol" = "Холестерин";
+
 // Search
 search = "Поиск";
 
