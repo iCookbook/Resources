@@ -20,6 +20,9 @@ public final class Images {
     public enum Discover {
         public static let network = UIImage(named: "network", in: Images.bundle, compatibleWith: nil)
         public static let bookFilled = UIImage(named: "book.closed.fill", in: Images.bundle, compatibleWith: nil)
+        
+        public static let heart = UIImage(named: "heart", in: Images.bundle, compatibleWith: nil)
+        public static let filledHeart = UIImage(named: "filledHeart", in: Images.bundle, compatibleWith: nil)
     }
     
     public static let sampleRecipeImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil)
