@@ -40,6 +40,10 @@ public final class Fonts {
         newYorkRegular(ofSize: 18)
     }
     
+    public static func systemBody() -> UIFont {
+        .systemFont(ofSize: 16)
+    }
+    
     public static func medium() -> UIFont {
         newYorkMedium(ofSize: 18)
     }
@@ -62,6 +66,10 @@ public final class Fonts {
     
     public static func subtitle() -> UIFont {
         .systemFont(ofSize: 16, weight: .medium)
+    }
+    
+    public static func buttonTitle() -> UIFont {
+        .systemFont(ofSize: 16, weight: .semibold)
     }
     
     // MARK: New York
