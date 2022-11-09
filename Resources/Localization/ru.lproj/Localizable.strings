@@ -15,6 +15,8 @@ mockRecipeTitle = "вкусным блюдом";
 // Recipe Details
 "details title description" = "Описание";
 "details title ingredients" = "Ингредиенты";
+"Calories" = "Калории";
+"Weight" = "Вес";
 "Fat" = "Жиры";
 "Carbs" = "Углеводы";
 "Protein" = "Белки";

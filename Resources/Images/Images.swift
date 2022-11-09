@@ -11,6 +11,9 @@ import UIKit
 ///
 /// Defined as `class` in order to use it find its' `bundle`. `final` is being used for static dispatch => better perfomance.
 public final class Images {
+    
+    public static let sampleRecipeImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil)
+    
     public enum TabBarItems {
         public static let discover = UIImage(named: "doc.text.image", in: Images.bundle, compatibleWith: nil)
         public static let search = UIImage(named: "magnifyingglass", in: Images.bundle, compatibleWith: nil)
@@ -33,7 +36,9 @@ public final class Images {
         public static let safari = UIImage(named: "safari", in: Images.bundle, compatibleWith: nil)
     }
     
-    public static let sampleRecipeImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil)
+    public enum Search {
+        public static let searchArrow = UIImage(named: "arrow.up.left", in: Images.bundle, compatibleWith: nil)
+    }
 }
 
 extension Images {
