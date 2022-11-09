@@ -24,12 +24,16 @@ public final class Fonts {
     
     // MARK: App's fonts
     
-    public static func title() -> UIFont {
+    public static func largeTitle() -> UIFont {
         newYorkBold(ofSize: 36)
     }
     
-    public static func headline() -> UIFont {
+    public static func title() -> UIFont {
         newYorkBold(ofSize: 24)
+    }
+    
+    public static func headline() -> UIFont {
+        newYorkBold(ofSize: 18)
     }
     
     public static func navControllerTitle() -> UIFont {
