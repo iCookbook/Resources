@@ -27,6 +27,8 @@ public enum Texts {
     
     public enum Search {
         public static let title = "search".localized
+        public static let categories = "categories".localized
+        public static let recommended = "recommended".localized
     }
     
     public enum Personal {

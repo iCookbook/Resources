@@ -23,6 +23,8 @@ mockRecipeTitle = "tasty dish";
 
 // Search
 search = "Search";
+categories = "Categories";
+recommended = "Recommended";
 
 // Personal
 personal = "Personal";
