@@ -76,6 +76,10 @@ public final class Fonts {
         .systemFont(ofSize: 16, weight: .semibold)
     }
     
+    public static func cellTitle() -> UIFont {
+        .systemFont(ofSize: 18, weight: .medium)
+    }
+    
     // MARK: New York
     
     private static func newYorkRegular(ofSize: CGFloat) -> UIFont {
