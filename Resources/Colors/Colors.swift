@@ -11,6 +11,9 @@ import UIKit
 ///
 /// Все цвета - статические константы, кэшированные в памяти для лучшей производительности.
 public enum Colors {
+    /// Tint color of the application.
+    public static let appColor: UIColor = UIColor(named: "AppColor", in: Images.bundle, compatibleWith: nil) ?? .blue
+    
     public static let systemBackground: UIColor = {
         if #available(iOS 13.0, *) {
             return UIColor.systemBackground
