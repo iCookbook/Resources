@@ -15,6 +15,7 @@ public final class Fonts {
     
     // MARK: - Public Methods
     
+    /// Before using fonts, we need to register them in `CTFontManagerRegisterGraphicsFont`.
     public static func registerFonts() {
         UIFont.registerFont(bundle: Bundle(for: Fonts.self), fontName: "NewYorkLarge-Regular", fontExtension: "otf")
         UIFont.registerFont(bundle: Bundle(for: Fonts.self), fontName: "NewYorkLarge-Medium", fontExtension: "otf")
@@ -45,7 +46,7 @@ public final class Fonts {
     }
     
     public static func systemBody() -> UIFont {
-        .systemFont(ofSize: 16)
+        .systemFont(ofSize: 18)
     }
     
     public static func medium() -> UIFont {

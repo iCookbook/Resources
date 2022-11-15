@@ -7,8 +7,13 @@
 
 import UIKit
 
-/// This code registers fonts for the project.
 extension UIFont {
+    /// This method registers fonts for the pod.
+    /// - Parameters:
+    ///   - bundle: bundle, where fonts are.
+    ///   - fontName: name of the font.
+    ///   - fontExtension: file extension of the font.
+    /// - Note: It is impossible to simply use fonts in CocoaPod. This code must be run for every font used in the project.
     public static func registerFont(bundle: Bundle, fontName: String, fontExtension: String) {
         guard let path = bundle.path(forResource: "Resources", ofType: "bundle"),
               let bundle = Bundle(path: path),
