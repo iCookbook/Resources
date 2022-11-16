@@ -23,7 +23,7 @@ mockRecipeTitle = "tasty dish";
 
 // Search
 search = "Search";
-categories = "Categories";
+cuisines = "Cuisines";
 recommended = "Recommended";
 
 // Personal
@@ -62,3 +62,19 @@ personal = "Personal";
 "special occasions" = "Special occasions";
 "starter" = "Starter";
 "sweets" = "Sweets";
+
+"american" = "American";
+"asian" = "Asian";
+"british" = "British";
+"central europe" = "Central Europe";
+"chinese" = "Chinese";
+"eastern europe" = "Eastern Europe";
+"french" = "French";
+"greek" = "Greek";
+"indian" = "Indian";
+"italian" = "Italian";
+"japanese" = "Japanese";
+"korean" = "Korean";
+"mexican" = "Mexican";
+"nordic" = "Nordic";
+"world" = "World";

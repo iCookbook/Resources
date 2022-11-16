@@ -26,7 +26,7 @@ mockRecipeTitle = "вкусным блюдом";
 
 // Search
 search = "Поиск";
-categories = "Категории";
+cuisines = "Кухни";
 recommended = "Рекомендуем";
 
 // Personal
@@ -65,3 +65,19 @@ personal = "Личное";
 "special occasions" = "Особые случаи";
 "starter" = "Начальный уровень";
 "sweets" = "Сладости";
+
+"american" = "Американская";
+"asian" = "Азиатская";
+"british" = "Английская";
+"central europe" = "Центральная Европа";
+"chinese" = "Китайская";
+"eastern europe" = "Восточноевропейская";
+"french" = "Французская";
+"greek" = "Греческая";
+"indian" = "Индийская";
+"italian" = "Итальянская";
+"japanese" = "Японская";
+"korean" = "Корейская";
+"mexican" = "Мексиканская";
+"nordic" = "Скандинавская";
+"world" = "Мировая";
