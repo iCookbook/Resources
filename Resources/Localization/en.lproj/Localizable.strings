@@ -25,6 +25,7 @@ mockRecipeTitle = "tasty dish";
 search = "Search";
 cuisines = "Cuisines";
 recommended = "Recommended";
+recent = "Recent searches";
 
 // Personal
 personal = "Personal";
@@ -37,6 +38,12 @@ personal = "Personal";
 "error internet error" = "Please, check your internet connection or try again later";
 
 // Models
+"breakfast" = "Завтрак";
+"brunch" = "Бранч";
+"lunchDinner" = "Обед";
+"snack" = "Перекус";
+"teatime" = "Чаепитие";
+
 "alcohol cocktail" = "Alcohol cocktails";
 "biscuits and cookies" = "Biscuits and cookies";
 "bread" = "Bread";

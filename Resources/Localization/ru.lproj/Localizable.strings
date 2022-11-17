@@ -28,6 +28,7 @@ mockRecipeTitle = "вкусным блюдом";
 search = "Поиск";
 cuisines = "Кухни";
 recommended = "Рекомендуем";
+recent = "Недавние";
 
 // Personal
 personal = "Личное";
@@ -40,6 +41,13 @@ personal = "Личное";
 "error internet error" = "Пожалуйста, проверьте свое подключение к Интернету или повторите попытку позже";
 
 // Models
+
+"breakfast" = "Завтрак";
+"brunch" = "Бранч";
+"lunchDinner" = "Обед";
+"snack" = "Перекус";
+"teatime" = "Чаепитие";
+
 "alcohol cocktail" = "Алкогольные коктейли";
 "biscuits and cookies" = "Бисквиты и печенья";
 "bread" = "Хлеб";
