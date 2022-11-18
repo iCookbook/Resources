@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Calories</key>
+	<key>calories count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -12,15 +12,13 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
-			<key>zero</key>
-			<string>Calories</string>
 			<key>one</key>
-			<string>Calorie</string>
+			<string>Calory</string>
 			<key>other</key>
 			<string>Calories</string>
 		</dict>
 	</dict>
-	<key>Servings</key>
+	<key>servings count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -30,15 +28,13 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
-			<key>zero</key>
-			<string>Servings</string>
 			<key>one</key>
 			<string>Serving</string>
 			<key>other</key>
 			<string>Servings</string>
 		</dict>
 	</dict>
-	<key>Minutes</key>
+	<key>minutes count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -48,15 +44,13 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
-			<key>zero</key>
-			<string>Minutes</string>
 			<key>one</key>
 			<string>Minute</string>
 			<key>other</key>
 			<string>Minutes</string>
 		</dict>
 	</dict>
-	<key>Fat</key>
+	<key>protein count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -66,15 +60,29 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
-			<key>zero</key>
-			<string>Fats</string>
+			<key>one</key>
+			<string>Protein</string>
+			<key>other</key>
+			<string>Proteins</string>
+		</dict>
+	</dict>
+	<key>fat count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
 			<key>one</key>
 			<string>Fat</string>
 			<key>other</key>
 			<string>Fats</string>
 		</dict>
 	</dict>
-	<key>Carbs</key>
+	<key>carbs count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -84,30 +92,10 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
-			<key>zero</key>
-			<string>Carbs</string>
 			<key>one</key>
 			<string>Carb</string>
 			<key>other</key>
 			<string>Carbs</string>
-		</dict>
-	</dict>
-	<key>Protein</key>
-	<dict>
-		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@count@</string>
-		<key>count</key>
-		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
-			<key>NSStringFormatValueTypeKey</key>
-			<string>d</string>
-			<key>zero</key>
-			<string>Proteins</string>
-			<key>one</key>
-			<string>Protein</string>
-			<key>other</key>
-			<string>Proteins</string>
 		</dict>
 	</dict>
 </dict>

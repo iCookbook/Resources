@@ -12,6 +12,9 @@ public enum Texts {
         public static let dishOfTheDay = "dishOfTheDay".localized
         public static let mockRecipeTitle = "mockRecipeTitle".localized
         public static let emptyCollectionViewText = "discover empty collection view text".localized
+        
+        public static let cookingTime = "cookingTime".localized
+        public static let servingsCount = "servingsCount".localized
     }
     
     public enum RecipeDetails {
@@ -24,27 +27,27 @@ public enum Texts {
         }
         
         public static func calories(count: Int) -> String {
-            String.localizedStringWithFormat("Calories".localized, count)
+            String.localizedStringWithFormat("calories count".localized, count)
         }
         
         public static func servings(count: Int) -> String {
-            String.localizedStringWithFormat("Servings".localized, count)
+            String.localizedStringWithFormat("servings count".localized, count)
         }
         
         public static func minutes(count: Int) -> String {
-            String.localizedStringWithFormat("Minutes".localized, count)
+            String.localizedStringWithFormat("minutes count".localized, count)
         }
         
         public static func protein(count: Int) -> String {
-            String.localizedStringWithFormat("Protein".localized, count)
+            String.localizedStringWithFormat("protein count".localized, count)
         }
         
         public static func fat(count: Int) -> String {
-            String.localizedStringWithFormat("Fat".localized, count)
+            String.localizedStringWithFormat("fat count".localized, count)
         }
         
         public static func carbs(count: Int) -> String {
-            String.localizedStringWithFormat("Carbs".localized, count)
+            String.localizedStringWithFormat("carbs count".localized, count)
         }
     }
     

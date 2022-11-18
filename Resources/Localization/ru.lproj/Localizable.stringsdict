@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Calories</key>
+	<key>calories count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -20,7 +20,7 @@
 			<string>Калорий</string>
 		</dict>
 	</dict>
-	<key>Servings</key>
+	<key>servings count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -38,7 +38,7 @@
 			<string>Порций</string>
 		</dict>
 	</dict>
-	<key>Minutes</key>
+	<key>minutes count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -56,41 +56,7 @@
 			<string>Минут</string>
 		</dict>
 	</dict>
-	<key>Fat</key>
-	<dict>
-		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@count@</string>
-		<key>count</key>
-		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
-			<key>NSStringFormatValueTypeKey</key>
-			<string>d</string>
-			<key>few</key>
-			<string>Жиры</string>
-			<key>other</key>
-			<string>Жиров</string>
-		</dict>
-	</dict>
-	<key>Carbs</key>
-	<dict>
-		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@count@</string>
-		<key>count</key>
-		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
-			<key>NSStringFormatValueTypeKey</key>
-			<string>d</string>
-			<key>one</key>
-			<string>Углевод</string>
-			<key>few</key>
-			<string>Углевода</string>
-			<key>other</key>
-			<string>Углеводов</string>
-		</dict>
-	</dict>
-	<key>Protein</key>
+	<key>protein count</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>%#@count@</string>
@@ -106,6 +72,42 @@
 			<string>Белка</string>
 			<key>other</key>
 			<string>Белков</string>
+		</dict>
+	</dict>
+	<key>fat count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Жир</string>
+			<key>few</key>
+			<string>Жиры</string>
+			<key>other</key>
+			<string>Жиров</string>
+		</dict>
+	</dict>
+	<key>carbs count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Углевод</string>
+			<key>few</key>
+			<string>Углевода</string>
+			<key>other</key>
+			<string>Углеводов</string>
 		</dict>
 	</dict>
 </dict>
