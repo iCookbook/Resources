@@ -29,6 +29,7 @@ search = "Поиск";
 cuisines = "Кухни";
 recommended = "Рекомендуем";
 recent = "Недавние";
+clear = "Очистить";
 
 // Personal
 personal = "Личное";
@@ -41,7 +42,6 @@ personal = "Личное";
 "error internet error" = "Пожалуйста, проверьте свое подключение к Интернету или повторите попытку позже";
 
 // Models
-
 "breakfast" = "Завтрак";
 "brunch" = "Бранч";
 "lunchDinner" = "Обед";

@@ -40,6 +40,7 @@ public final class Images {
         public static let searchArrow = UIImage(named: "arrow.up.left", in: Images.bundle, compatibleWith: nil)
         public static let filter = UIImage(named: "line.3.horizontal.decrease.circle", in: Images.bundle, compatibleWith: nil)
         public static let filterFill = UIImage(named: "line.3.horizontal.decrease.circle.fill", in: Images.bundle, compatibleWith: nil)
+        public static let close = UIImage(named: "xmark.circle.fill", in: Images.bundle, compatibleWith: nil)
     }
 }
 

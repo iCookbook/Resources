@@ -26,6 +26,7 @@ search = "Search";
 cuisines = "Cuisines";
 recommended = "Recommended";
 recent = "Recent searches";
+clear = "Clear";
 
 // Personal
 personal = "Personal";

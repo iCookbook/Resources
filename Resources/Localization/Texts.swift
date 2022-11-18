@@ -30,6 +30,7 @@ public enum Texts {
         public static let cuisines = "cuisines".localized
         public static let recommended = "recommended".localized
         public static let recent = "recent".localized
+        public static let clear = "clear".localized
     }
     
     public enum Personal {
