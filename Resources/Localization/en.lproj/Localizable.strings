@@ -12,6 +12,9 @@ dishOfTheDay = "Dish\nof the day";
 mockRecipeTitle = "tasty dish";
 "discover empty collection view text" = "Due to some problems, you can't see the list of recipes here";
 
+cookingTime = "Cooking time";
+servingsCount = "Servings count";
+
 // Recipe Details
 "details title description" = "Description";
 "details title ingredients" = "Ingredients";

@@ -12,6 +12,9 @@ dishOfTheDay = "Блюдо\nдня";
 mockRecipeTitle = "вкусным блюдом";
 "discover empty collection view text" = "Из-за некоторых проблем вы не можете увидеть список рецептов здесь";
 
+cookingTime = "Время приготовления";
+servingsCount = "Количество порций";
+
 // Recipe Details
 "details title description" = "Описание";
 "details title ingredients" = "Ингредиенты";
