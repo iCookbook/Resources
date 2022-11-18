@@ -15,11 +15,12 @@ mockRecipeTitle = "tasty dish";
 // Recipe Details
 "details title description" = "Description";
 "details title ingredients" = "Ingredients";
-"details recipe description1" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
-"details recipe description2" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
-"details recipe description3" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
-"details recipe description4" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
-"details recipe description5" = "Instead of calling the Indian takeaway, make your own easy chicken jalfrezi. Our healthy curry recipe also has two of your 5-a-day and a good dose of vitamin C";
+"recipe description 0" = "Enjoy our %@ for an easy midweek meal. With its crunchy, cheesy coating, it's sure to become a new favourite";
+"recipe description 1" = "Bring colour to your dinner table with our %@. Packed with nutrients, it's a satisfying lunch or supper for the family";
+"recipe description 2" = "Make our easy %@ using just a handful of ingredients. Packed with nutrients, it's a satisfying dinner for the family";
+"recipe description 3" = "Serve this delicious %@ as an easy midweek dinner for the family. You can freeze any leftovers for another day";
+"recipe description 4" = "Enjoy this %@ bake for the ultimate weekday family dinner. Serve straight from the dish with a dressed green salad";
+"recipe description 5" = "Double the ingredients in this easy %@ if you need to feed four, or quadruple for eight. This comforting dinner is perfect for midweek, and adaptable for any situation";
 
 // Search
 search = "Search";
@@ -32,7 +33,7 @@ clear = "Clear";
 personal = "Personal";
 
 // Errors
-"oops" = "Oops!";
+"error oops" = "Oops!";
 "error restart app" = "Please, restart the application and try again";
 "error something went wrong" = "Something went wrong... Please, restart the application try again later";
 "error unexpected error" = "An unexpected error has occurred. Please, restart the application and try again";

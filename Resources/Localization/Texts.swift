@@ -18,11 +18,34 @@ public enum Texts {
         public static let titleDescription = "details title description".localized
         public static let titleIngredients = "details title ingredients".localized
         
-        public static let recipeDescription1 = "details recipe description1".localized
-        public static let recipeDescription2 = "details recipe description2".localized
-        public static let recipeDescription3 = "details recipe description3".localized
-        public static let recipeDescription4 = "details recipe description4".localized
-        public static let recipeDescription5 = "details recipe description5".localized
+        public static func description(name: String, index: Int) -> String {
+            /// We have only 6 descriptions, so we take the remainder of 6.
+            String(format: "recipe description \(index % 6)".localized, name)
+        }
+        
+        public static func calories(count: Int) -> String {
+            String.localizedStringWithFormat("Calories".localized, count)
+        }
+        
+        public static func servings(count: Int) -> String {
+            String.localizedStringWithFormat("Servings".localized, count)
+        }
+        
+        public static func minutes(count: Int) -> String {
+            String.localizedStringWithFormat("Minutes".localized, count)
+        }
+        
+        public static func protein(count: Int) -> String {
+            String.localizedStringWithFormat("Protein".localized, count)
+        }
+        
+        public static func fat(count: Int) -> String {
+            String.localizedStringWithFormat("Fat".localized, count)
+        }
+        
+        public static func carbs(count: Int) -> String {
+            String.localizedStringWithFormat("Carbs".localized, count)
+        }
     }
     
     public enum Search {
@@ -38,7 +61,7 @@ public enum Texts {
     }
     
     public enum Errors {
-        public static let oops = "oops".localized
+        public static let oops = "error oops".localized
         public static let restartApp = "error restart app".localized
         public static let somethingWentWrong = "error something went wrong".localized
         public static let unexpectedError = "error unexpected error".localized
