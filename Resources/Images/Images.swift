@@ -9,7 +9,7 @@ import UIKit
 
 /// Class-wrapper for all the images in the application.
 ///
-/// Defined as `class` in order to use it find its' `bundle`. `final` is being used for static dispatch => better perfomance.
+/// - Note: Defined as `class` in order to use it find its' `bundle`. `final` is being used for static dispatch => better perfomance.
 public final class Images {
     
     public static let sampleRecipeImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil)
