@@ -64,10 +64,13 @@ public enum Texts {
     }
     
     public enum Errors {
+        public static let error = "error".localized
         public static let oops = "error oops".localized
         public static let restartApp = "error restart app".localized
         public static let somethingWentWrong = "error something went wrong".localized
         public static let unexpectedError = "error unexpected error".localized
-        public static let internetError = "error internet error".localized
+        public static let networkError = "error network error title".localized
+        public static let networkErrorDescription = "error network error description".localized
+        public static let serverError = "error server error title".localized
     }
 }
