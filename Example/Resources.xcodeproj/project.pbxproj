@@ -214,10 +214,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Resources_Example/Pods-Resources_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Logger/Logger.framework",
 				"${BUILT_PRODUCTS_DIR}/Resources/Resources.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Resources.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -36,6 +36,7 @@ clear = "Clear";
 personal = "Personal";
 
 // Errors
+"close" = "Close";
 "error" = "Error";
 "error oops" = "Oops!";
 "error restart app" = "Please, restart the application and try again";

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Logger
 
 /// The use of fonts in the application is centralized and described here.
 ///
@@ -18,10 +19,11 @@ public final class Fonts {
     
     /// Registers appliation's custom fonts.
     public static func registerFonts() {
-        registerFont(bundle: Bundle(for: Fonts.self), fontName: "NewYorkLarge-Regular", fontExtension: "otf")
-        registerFont(bundle: Bundle(for: Fonts.self), fontName: "NewYorkLarge-Medium", fontExtension: "otf")
-        registerFont(bundle: Bundle(for: Fonts.self), fontName: "NewYorkLarge-Semibold", fontExtension: "otf")
-        registerFont(bundle: Bundle(for: Fonts.self), fontName: "NewYorkLarge-Bold", fontExtension: "otf")
+        let bundle = Bundle(for: Fonts.self)
+        registerFont(bundle: bundle, fontName: "NewYorkLarge-Regular", fontExtension: "otf")
+        registerFont(bundle: bundle, fontName: "NewYorkLarge-Medium", fontExtension: "otf")
+        registerFont(bundle: bundle, fontName: "NewYorkLarge-Semibold", fontExtension: "otf")
+        registerFont(bundle: bundle, fontName: "NewYorkLarge-Bold", fontExtension: "otf")
     }
     
     // MARK: App's fonts
@@ -70,6 +72,10 @@ public final class Fonts {
         .systemFont(ofSize: 16, weight: .medium)
     }
     
+    public static func errorTitle() -> UIFont {
+        .systemFont(ofSize: 18, weight: .bold)
+    }
+    
     public static func buttonTitle() -> UIFont {
         .systemFont(ofSize: 16, weight: .semibold)
     }
@@ -89,26 +95,32 @@ public final class Fonts {
               let bundle = Bundle(path: path),
               let fontURL = bundle.url(forResource: fontName, withExtension: fontExtension)
         else {
-            fatalError("Couldn't find font \(fontName)")
+            Logger.log("Couldn't find font \(fontName)", logType: .error)
+            return
         }
         
         guard let fontDataProvider = CGDataProvider(url: fontURL as CFURL) else {
-            fatalError("Couldn't load data from the font \(fontName)")
+            Logger.log("Couldn't load data from the font \(fontName)", logType: .error)
+            return
         }
         
         guard let font = CGFont(fontDataProvider) else {
-            fatalError("Couldn't create font from data")
+            Logger.log("Couldn't create font from data", logType: .error)
+            return
         }
         
+        /// Variable to store optional core foundation error.
         var error: Unmanaged<CFError>?
+        /// Defines the result of registering font. If the value is `true`, it means everything is ok, otherwise - there will be some error occured.
         let success = CTFontManagerRegisterGraphicsFont(font, &error)
         
-        guard error == nil else {
-            fatalError("Some error occurred: \(String(describing: error))")
+        if let error = error {
+            Logger.log("Some error occurred: \(error)", logType: .error)
+            return
         }
         
         guard success else {
-            print("Error registering font: maybe it was already registered.")
+            Logger.log("Error registering font: maybe it was already registered.", logType: .warning)
             return
         }
     }
@@ -137,6 +149,7 @@ public final class Fonts {
 }
 
 extension Fonts {
+    /// Cases that represent standard typeface styles.
     enum Weight {
         case regular
         case medium

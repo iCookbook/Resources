@@ -64,6 +64,7 @@ public enum Texts {
     }
     
     public enum Errors {
+        public static let close = "close".localized
         public static let error = "error".localized
         public static let oops = "error oops".localized
         public static let restartApp = "error restart app".localized

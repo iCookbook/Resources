@@ -26,7 +26,7 @@ public enum Colors {
     }()
     
     /// Black color with opacity for dimmed background.
-    public static let dimmedBackground = UIColor.black.withAlphaComponent(0.75)
+    public static let dimmedBackground = UIColor.black.withAlphaComponent(0.4)
     
     /// The color for content layered on top of the main background.
     public static let systemGroupedBackground: UIColor = {
@@ -42,6 +42,15 @@ public enum Colors {
             return UIColor.label.withAlphaComponent(0.9)
         } else {
             return UIColor.black.withAlphaComponent(0.9)
+        }
+    }()
+    
+    /// The color for text labels.
+    public static let label: UIColor = {
+        if #available(iOS 13.0, *) {
+            return UIColor.label
+        } else {
+            return UIColor.black
         }
     }()
     
