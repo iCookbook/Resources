@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "book.closed.fill.pdf",
+      "filename" : "info.circle.pdf",
       "idiom" : "universal"
     },
     {
@@ -11,6 +11,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "info.circle-1.pdf",
       "idiom" : "universal"
     }
   ],

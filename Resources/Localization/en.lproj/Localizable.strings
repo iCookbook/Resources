@@ -44,7 +44,6 @@ personal = "Personal";
 "error something went wrong" = "Something went wrong... Please, restart the application try again later";
 "error unexpected error" = "An unexpected error has occurred. Please, restart the application and try again";
 "error network error title" = "A network error occurred";
-"error network error description" = "Please, check your internet connection or try again later";
 
 // Models
 "breakfast" = "Завтрак";

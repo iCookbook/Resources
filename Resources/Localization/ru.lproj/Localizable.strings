@@ -41,10 +41,10 @@ personal = "Личное";
 "error" = "Ошибка";
 "error oops" = "Упс!";
 "error restart app" = "Пожалуйста, перезапустите приложение и попробуйте ещё раз";
+"error server error title" = "A server error occurred";
 "error something went wrong" = "Что-то пошло не так... Пожалуйста, перезапустите приложение и повторите попытку позже";
 "error unexpected error" = "Произошла непредвиденная ошибка. Пожалуйста, перезапустите приложение и повторите попытку";
-"error internet error" = "Пожалуйста, проверьте свое подключение к Интернету или повторите попытку позже";
-
+"error network error title" = "Проблемы с сетью";
 // Models
 "breakfast" = "Завтрак";
 "brunch" = "Бранч";

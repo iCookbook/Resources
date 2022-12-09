@@ -134,7 +134,7 @@ public final class Fonts {
     /// - Returns: `UIFont` instance with _New York Large_ typeface.
     ///
     /// - Note: It has fallbacks if there won't be a font provided by `CTFontManagerRegisterGraphicsFont` in `registerFont` method.
-    private static func newYork(ofSize: CGFloat, weight: Fonts.Weight) -> UIFont {
+    private static func newYork(ofSize: CGFloat, weight: UIFont.Weight) -> UIFont {
         switch weight {
         case .regular:
             return UIFont(name: "NewYorkLarge-Regular", size: ofSize) ?? .systemFont(ofSize: ofSize)
@@ -144,16 +144,9 @@ public final class Fonts {
             return UIFont(name: "NewYorkLarge-Semibold", size: ofSize) ?? .systemFont(ofSize: ofSize, weight: .semibold)
         case .bold:
             return UIFont(name: "NewYorkLarge-Bold", size: ofSize) ?? .systemFont(ofSize: ofSize, weight: .bold)
+        default:
+            Logger.log("You're trying to use unexpected weight for the font.", logType: .warning)
+            return UIFont(name: "NewYorkLarge-Regular", size: ofSize) ?? .systemFont(ofSize: ofSize)
         }
-    }
-}
-
-extension Fonts {
-    /// Cases that represent standard typeface styles.
-    enum Weight {
-        case regular
-        case medium
-        case semibold
-        case bold
     }
 }

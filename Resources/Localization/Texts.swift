@@ -71,7 +71,6 @@ public enum Texts {
         public static let somethingWentWrong = "error something went wrong".localized
         public static let unexpectedError = "error unexpected error".localized
         public static let networkError = "error network error title".localized
-        public static let networkErrorDescription = "error network error description".localized
         public static let serverError = "error server error title".localized
     }
 }

@@ -3,6 +3,16 @@
     {
       "filename" : "network.pdf",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "network-1.pdf",
+      "idiom" : "universal"
     }
   ],
   "info" : {

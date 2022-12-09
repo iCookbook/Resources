@@ -12,35 +12,41 @@ import UIKit
 /// - Note: Defined as `class` in order to use it find its' `bundle`. `final` is being used for static dispatch => better perfomance.
 public final class Images {
     
-    public static let sampleRecipeImage = UIImage(named: "RecipeMockup", in: Images.bundle, compatibleWith: nil)
+    public static let sampleRecipeImage = UIImage(name: "RecipeMockup")
     
     public enum TabBarItems {
-        public static let discover = UIImage(named: "doc.text.image", in: Images.bundle, compatibleWith: nil)
-        public static let search = UIImage(named: "magnifyingglass", in: Images.bundle, compatibleWith: nil)
-        public static let person = UIImage(named: "person.fill", in: Images.bundle, compatibleWith: nil)
+        public static let discover = UIImage(name: "doc.text.image")
+        public static let search = UIImage(name: "magnifyingglass")
+        public static let person = UIImage(name: "person.fill")
     }
     
     public enum Discover {
-        public static let network = UIImage(named: "network", in: Images.bundle, compatibleWith: nil)
-        public static let bookFilled = UIImage(named: "book.closed.fill", in: Images.bundle, compatibleWith: nil)
+        public static let bookFilled = UIImage(name: "book.closed.fill")
     }
     
     public enum RecipeDetails {
-        public static let heart = UIImage(named: "heart", in: Images.bundle, compatibleWith: nil)
-        public static let filledHeart = UIImage(named: "filledHeart", in: Images.bundle, compatibleWith: nil)
+        public static let heart = UIImage(name: "heart")
+        public static let filledHeart = UIImage(name: "filledHeart")
         
-        public static let chevronForward = UIImage(named: "chevron.right", in: Images.bundle, compatibleWith: nil)
-        public static let chevronBackward = UIImage(named: "chevron.left", in: Images.bundle, compatibleWith: nil)
-        public static let share = UIImage(named: "square.and.arrow.up", in: Images.bundle, compatibleWith: nil)
-        public static let reload = UIImage(named: "arrow.clockwise", in: Images.bundle, compatibleWith: nil)
-        public static let safari = UIImage(named: "safari", in: Images.bundle, compatibleWith: nil)
+        public static let chevronForward = UIImage(name: "chevron.right")
+        public static let chevronBackward = UIImage(name: "chevron.left")
+        public static let share = UIImage(name: "square.and.arrow.up")
+        public static let reload = UIImage(name: "arrow.clockwise")
+        public static let safari = UIImage(name: "safari")
     }
     
     public enum Search {
-        public static let searchArrow = UIImage(named: "arrow.up.left", in: Images.bundle, compatibleWith: nil)
-        public static let filter = UIImage(named: "line.3.horizontal.decrease.circle", in: Images.bundle, compatibleWith: nil)
-        public static let filterFill = UIImage(named: "line.3.horizontal.decrease.circle.fill", in: Images.bundle, compatibleWith: nil)
-        public static let close = UIImage(named: "xmark.circle.fill", in: Images.bundle, compatibleWith: nil)
+        public static let searchArrow = UIImage(name: "arrow.up.left")
+        public static let filter = UIImage(name: "line.3.horizontal.decrease.circle")
+        public static let filterFill = UIImage(name: "line.3.horizontal.decrease.circle.fill")
+        public static let close = UIImage(name: "xmark.circle.fill")
+    }
+    
+    public enum Errors {
+        public static let network = UIImage(name: "network")
+        public static let info = UIImage(name: "info.circle")
+        public static let persistence = UIImage(name: "externaldrive.badge.exclamationmark")
+        public static let hammer = UIImage(name: "hammer.fill")
     }
 }
 
@@ -49,5 +55,11 @@ extension Images {
         let path = Bundle(for: Images.self).path(forResource: "Resources", ofType: "bundle") ?? ""
         let bundle = Bundle(path: path) ?? Bundle.main
         return bundle
+    }
+}
+
+fileprivate extension UIImage {
+    convenience init?(name: String) {
+        self.init(named: name, in: Images.bundle, compatibleWith: nil)
     }
 }
