@@ -15,15 +15,19 @@ import Logger
 /// - Note: It was described as `Сlass` in order to find its' bundle. Keyword `final` is for static dispatch => better perfomance.
 public final class Fonts {
     
+    // MARK: - Private Properties
+    
+    /// Bundle of this class.
+    private static let bundle = Bundle(for: Fonts.self)
+    
     // MARK: - Public Methods
     
     /// Registers appliation's custom fonts.
     public static func registerFonts() {
-        let bundle = Bundle(for: Fonts.self)
-        registerFont(bundle: bundle, fontName: "NewYorkLarge-Regular", fontExtension: "otf")
-        registerFont(bundle: bundle, fontName: "NewYorkLarge-Medium", fontExtension: "otf")
-        registerFont(bundle: bundle, fontName: "NewYorkLarge-Semibold", fontExtension: "otf")
-        registerFont(bundle: bundle, fontName: "NewYorkLarge-Bold", fontExtension: "otf")
+        registerFont(fontName: "NewYorkLarge-Regular", fontExtension: "otf")
+        registerFont(fontName: "NewYorkLarge-Medium", fontExtension: "otf")
+        registerFont(fontName: "NewYorkLarge-Semibold", fontExtension: "otf")
+        registerFont(fontName: "NewYorkLarge-Bold", fontExtension: "otf")
     }
     
     // MARK: App's fonts
@@ -59,22 +63,22 @@ public final class Fonts {
     }
     
     public static func medium() -> UIFont {
-        let fontMetrics = UIFontMetrics(forTextStyle: .callout)
+        let fontMetrics = UIFontMetrics(forTextStyle: .body)
         return fontMetrics.scaledFont(for: newYork(ofSize: 18, weight: .medium))
     }
     
     public static func semibold() -> UIFont {
-        let fontMetrics = UIFontMetrics(forTextStyle: .caption1)
+        let fontMetrics = UIFontMetrics(forTextStyle: .body)
         return fontMetrics.scaledFont(for: newYork(ofSize: 18, weight: .semibold))
     }
     
     public static func smallBody() -> UIFont {
-        let fontMetrics = UIFontMetrics(forTextStyle: .footnote)
+        let fontMetrics = UIFontMetrics(forTextStyle: .callout)
         return fontMetrics.scaledFont(for: newYork(ofSize: 16, weight: .regular))
     }
     
     public static func smallMedium() -> UIFont {
-        let fontMetrics = UIFontMetrics(forTextStyle: .caption2)
+        let fontMetrics = UIFontMetrics(forTextStyle: .caption1)
         return fontMetrics.scaledFont(for: newYork(ofSize: 16, weight: .medium))
     }
     
@@ -98,12 +102,11 @@ public final class Fonts {
     /// Registers fonts for the resources bundle.
     ///
     /// - Parameters:
-    ///   - bundle: bundle, where the font is.
     ///   - fontName: name of the font.
     ///   - fontExtension: file extension of the font.
     ///
     /// - Important: It is impossible to simply use fonts in CocoaPod. This code must be run (only once) for every font used in the project.
-    private static func registerFont(bundle: Bundle, fontName: String, fontExtension: String) {
+    private static func registerFont(fontName: String, fontExtension: String) {
         guard let path = bundle.path(forResource: "Resources", ofType: "bundle"),
               let bundle = Bundle(path: path),
               let fontURL = bundle.url(forResource: fontName, withExtension: fontExtension)
@@ -128,7 +131,7 @@ public final class Fonts {
         let success = CTFontManagerRegisterGraphicsFont(font, &error)
         
         if let error = error {
-            Logger.log("Some error occurred: \(error)", logType: .error)
+            Logger.log("\(error)", logType: .error)
             return
         }
         

@@ -26,7 +26,7 @@ public enum Colors {
     }()
     
     /// Black color with opacity for dimmed background.
-    public static let dimmedBackground = UIColor.black.withAlphaComponent(0.4)
+    public static let dimmedBackground = UIColor.black.withAlphaComponent(0.5)
     
     /// The color for content layered on top of the main background.
     public static let systemGroupedBackground: UIColor = {
