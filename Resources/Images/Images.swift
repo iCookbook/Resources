@@ -27,12 +27,6 @@ public final class Images {
     public enum RecipeDetails {
         public static let heart = UIImage("heart")
         public static let filledHeart = UIImage("filledHeart")
-        
-        public static let chevronForward = UIImage("chevron.right")
-        public static let chevronBackward = UIImage("chevron.left")
-        public static let share = UIImage("square.and.arrow.up")
-        public static let reload = UIImage("arrow.clockwise")
-        public static let safari = UIImage("safari")
     }
     
     public enum Search {

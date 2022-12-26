@@ -1,7 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "line.3.horizontal.decrease.circle.pdf",
+      "filename" : "line.3.horizontal.decrease.circle light.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "line.3.horizontal.decrease.circle dark.pdf",
       "idiom" : "universal"
     }
   ],

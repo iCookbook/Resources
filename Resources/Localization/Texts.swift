@@ -57,6 +57,10 @@ public enum Texts {
         public static let recommended = "recommended".localized
         public static let recent = "recent".localized
         public static let clear = "clear".localized
+        public static let offlineModeTitle = "search offline mode title".localized
+        public static let offlineModeDescription = "search offline mode description".localized
+        public static let emptyDataModeTitle = "search empty mode title".localized
+        public static let emptyDataModeDescription = "search empty mode description".localized
     }
     
     public enum Personal {
@@ -71,6 +75,7 @@ public enum Texts {
         public static let somethingWentWrong = "error something went wrong".localized
         public static let unexpectedError = "error unexpected error".localized
         public static let networkError = "error network error title".localized
+        public static let networkErrorDescription = "error network error description".localized
         public static let serverError = "error server error title".localized
     }
 }

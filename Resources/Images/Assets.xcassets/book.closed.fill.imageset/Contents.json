@@ -1,16 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "book.closed.fill.pdf",
-      "idiom" : "universal"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
+      "filename" : "book.closed.fill.svg",
       "idiom" : "universal"
     }
   ],
