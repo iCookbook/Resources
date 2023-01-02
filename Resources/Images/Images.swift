@@ -42,6 +42,14 @@ public final class Images {
         public static let persistence = UIImage("externaldrive.badge.exclamationmark")
         public static let hammer = UIImage("hammer.fill")
     }
+    
+    public enum Personal {
+        public static let sampleAvatarImage = UIImage("person.crop.square")
+        public static let favourites = UIImage("heart.fill")
+        public static let favouritesSelected = UIImage("heart.fill.selected")
+        public static let personal = UIImage("person")
+        public static let personalSelected = UIImage("person.selected")
+    }
 }
 
 extension Images {

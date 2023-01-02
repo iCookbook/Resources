@@ -14,6 +14,7 @@ mockRecipeTitle = "tasty dish";
 
 cookingTime = "Cooking time";
 servingsCount = "Servings count";
+minutes = "minutes";
 
 // Recipe Details
 "details title description" = "Description";
@@ -28,16 +29,24 @@ servingsCount = "Servings count";
 // Search
 search = "Search";
 cuisines = "Cuisines";
+meals = "Meals";
+diets = "Diets";
+dishes = "Dishes";
 recommended = "Recommended";
 recent = "Recent searches";
 clear = "Clear";
 "search offline mode title" = "You are now offline";
 "search offline mode description" = "Please, check your Internet connection or try again later";
-"search offline mode title" = "Ничего не нашлось";
-"search offline mode description" = "Похоже, по заданному Вами запросу ничего не удалось найти";
+"search empty mode title" = "Nothing was found";
+"search empty mode description" = "It looks like nothing could be found for the query you set";
 
 // Personal
 personal = "Personal";
+"personal whats your name" = "What's your name?";
+"personal your recipes" = "Your recipes";
+"personal favourites" = "Favourites?";
+"personal empty data personal" = "Add your own recipes so that it's not so empty here";
+"personal empty data favourites" = "Your favorite recipes will be displayed here";
 
 // Errors
 "close" = "Close";

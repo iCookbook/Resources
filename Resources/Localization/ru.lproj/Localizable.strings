@@ -29,16 +29,24 @@ servingsCount = "Количество порций";
 // Search
 search = "Поиск";
 cuisines = "Кухни";
+meals = "Приёмы пищи";
+diets = "Диеты";
+dishes = "Вид блюда";
 recommended = "Рекомендуем";
 recent = "Недавние";
 clear = "Очистить";
 "search offline mode title" = "Вы оффлайн";
 "search offline mode description" = "Пожалуйста, проверьте своё соеднинение с интернетом или попробуйте позже";
-"search empty mode title" = "Nothing was found";
-"search empty mode description" = "It looks like nothing could be found for the query you set";
+"search empty mode title" = "Ничего не нашлось";
+"search empty mode description" = "Похоже, по заданному Вами запросу ничего не удалось найти";
 
 // Personal
 personal = "Личное";
+"personal whats your name" = "Как вас зовут?";
+"personal your recipes" = "Ваши рецепты";
+"personal favourites" = "Избранные";
+"personal empty data personal" = "Добавьте собственные рецепты, чтобы тут было не так пусто";
+"personal empty data favourites" = "Здесь будут отображаться ваши избранные рецепты";
 
 // Errors
 "close" = "Закрыть";

@@ -42,6 +42,11 @@ public final class Fonts {
         return fontMetrics.scaledFont(for: newYork(ofSize: 24, weight: .bold))
     }
     
+    public static func title2() -> UIFont {
+        let fontMetrics = UIFontMetrics(forTextStyle: .title1)
+        return fontMetrics.scaledFont(for: .systemFont(ofSize: 28, weight: .medium))
+    }
+    
     public static func headline() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .title2)
         return fontMetrics.scaledFont(for: newYork(ofSize: 18, weight: .bold))

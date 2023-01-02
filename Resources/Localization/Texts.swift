@@ -54,6 +54,9 @@ public enum Texts {
     public enum Search {
         public static let title = "search".localized
         public static let cuisines = "cuisines".localized
+        public static let diets = "diets".localized
+        public static let dishes = "dishes".localized
+        public static let meals = "meals".localized
         public static let recommended = "recommended".localized
         public static let recent = "recent".localized
         public static let clear = "clear".localized
@@ -65,6 +68,11 @@ public enum Texts {
     
     public enum Personal {
         public static let title = "personal".localized
+        public static let whatsYourName = "personal whats your name".localized
+        public static let favourites = "personal favourites".localized
+        public static let yourRecipes = "personal your recipes".localized
+        public static let emptyPersonalRecipes = "personal empty data personal".localized
+        public static let emptyFavouriteRecipes = "personal empty data favourites".localized
     }
     
     public enum Errors {
