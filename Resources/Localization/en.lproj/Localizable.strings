@@ -58,6 +58,16 @@ personal = "Personal";
 "error unexpected error" = "An unexpected error has occurred. Please, restart the application and try again";
 "error network error title" = "A network error occurred";
 "error network error description" = "Please, check your internet connection or try again later";
+"error model no recipe source" = "Unfortunately, we do not have source for this recipe";
+
+// Onboarding
+"onboarding continue" = "Continue";
+"onboarding title 1" = "Use filters";
+"onboarding title 2" = "Write down yours";
+"onboarding title 3" = "Save favourite";
+"onboarding description 1" = "Use filters to clarify your search: by diets, meals, different cuisines and even types of dishes";
+"onboarding description 2" = "Write down your own recipes in the app so that they are always at hand and can be shared";
+"onboarding description 3" = "Discover new recipes and mark them as favorites so that they are saved offline";
 
 // Models
 "breakfast" = "Завтрак";

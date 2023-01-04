@@ -12,7 +12,7 @@ import UIKit
 /// - Note: Defined as `class` in order to use it find its' `bundle`. `final` is being used for static dispatch => better perfomance.
 public final class Images {
     
-    public static let sampleRecipeImage = UIImage("RecipeMockup")
+    public static let sampleRecipeImage = UIImage("RecipeMockup")! // we are sure it is not nil. This will ease our fights with unwrapping data
     
     public enum TabBarItems {
         public static let discover = UIImage("doc.text.image")
@@ -49,6 +49,12 @@ public final class Images {
         public static let favouritesSelected = UIImage("heart.fill.selected")
         public static let personal = UIImage("person")
         public static let personalSelected = UIImage("person.selected")
+    }
+    
+    public enum Onboarding {
+        public static let image1 = UIImage("Filters")
+        public static let image2 = UIImage("Personal")
+        public static let image3 = UIImage("Favourites")
     }
 }
 

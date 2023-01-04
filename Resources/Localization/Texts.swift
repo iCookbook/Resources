@@ -85,5 +85,18 @@ public enum Texts {
         public static let networkError = "error network error title".localized
         public static let networkErrorDescription = "error network error description".localized
         public static let serverError = "error server error title".localized
+        public static let noRecipeSource = "error model no recipe source".localized
+    }
+    
+    public enum Onboarding {
+        public static let `continue` = "onboarding continue".localized
+        
+        public static let title1 = "onboarding title 1".localized
+        public static let title2 = "onboarding title 2".localized
+        public static let title3 = "onboarding title 3".localized
+        
+        public static let description1 = "onboarding description 1".localized
+        public static let description2 = "onboarding description 2".localized
+        public static let description3 = "onboarding description 3".localized
     }
 }

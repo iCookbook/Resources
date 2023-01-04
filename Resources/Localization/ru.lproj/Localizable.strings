@@ -53,11 +53,21 @@ personal = "Личное";
 "error" = "Ошибка";
 "error oops" = "Упс!";
 "error restart app" = "Пожалуйста, перезапустите приложение и попробуйте ещё раз";
-"error server error title" = "A server error occurred";
+"error server error title" = "Ошибка сервера";
 "error something went wrong" = "Что-то пошло не так... Пожалуйста, перезапустите приложение и повторите попытку позже";
 "error unexpected error" = "Произошла непредвиденная ошибка. Пожалуйста, перезапустите приложение и повторите попытку";
 "error network error title" = "Проблемы с сетью";
 "error network error description" = "Пожалуйста, проверьте своё соединение с интернетом или повторите попытку позже";
+"error model no recipe source" = "К сожалению, для этого рецепта нет ссылки на источник";
+
+// Onboarding
+"onboarding continue" = "Continue";
+"onboarding title 1" = "Используйте фильтры";
+"onboarding title 2" = "Записывайте своё";
+"onboarding title 3" = "Сохраняйте любимое";
+"onboarding description 1" = "Используйте фильтры, чтобы уточнить ваш запрос: по диетам, приёмам пищи, различным кухням и даже видам блюд";
+"onboarding description 2" = "Записывайте собственные рецепты в приложении, чтобы они всегда были под рукой и ими можно было поделиться";
+"onboarding description 3" = "Открывайте для себя новые рецепты и отмечайте их избранными, чтобы они сохранились в оффлайн";
 
 // Models
 "breakfast" = "Завтрак";
