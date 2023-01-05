@@ -45,10 +45,7 @@ public final class Images {
     
     public enum Personal {
         public static let sampleAvatarImage = UIImage("person.crop.square")
-        public static let favourites = UIImage("heart.fill")
-        public static let favouritesSelected = UIImage("heart.fill.selected")
-        public static let personal = UIImage("person")
-        public static let personalSelected = UIImage("person.selected")
+        public static let favourites = UIImage("suit.heart.fill")
     }
     
     public enum Onboarding {
