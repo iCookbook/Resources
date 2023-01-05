@@ -61,7 +61,7 @@ personal = "Личное";
 "error model no recipe source" = "К сожалению, для этого рецепта нет ссылки на источник";
 
 // Onboarding
-"onboarding continue" = "Continue";
+"onboarding continue" = "Продолжить";
 "onboarding title 1" = "Используйте фильтры";
 "onboarding title 2" = "Записывайте своё";
 "onboarding title 3" = "Сохраняйте любимое";

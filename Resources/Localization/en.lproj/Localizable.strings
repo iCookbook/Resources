@@ -44,7 +44,7 @@ clear = "Clear";
 personal = "Personal";
 "personal whats your name" = "What's your name?";
 "personal your recipes" = "Your recipes";
-"personal favourites" = "Favourites?";
+"personal favourites" = "Favourites";
 "personal empty data personal" = "Add your own recipes so that it's not so empty here";
 "personal empty data favourites" = "Your favorite recipes will be displayed here";
 
