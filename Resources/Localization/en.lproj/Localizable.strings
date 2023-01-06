@@ -1,0 +1,128 @@
+/*
+  Localizable.strings
+  Pods
+
+  Created by Егор Бадмаев on 02.11.2022.
+  
+*/
+
+// Discover
+discover = "Discover";
+dishOfTheDay = "Dish\nof the day";
+mockRecipeTitle = "tasty dish";
+"discover empty collection view text" = "Здесь будет список ваших новых кулинарных открытий";
+
+cookingTime = "Cooking time";
+servingsCount = "Servings count";
+minutes = "minutes";
+
+// Recipe Details
+"details title description" = "Description";
+"details title ingredients" = "Ingredients";
+"recipe description 0" = "Enjoy our %@ for an easy midweek meal. With its crunchy, cheesy coating, it's sure to become a new favourite";
+"recipe description 1" = "Bring colour to your dinner table with our %@. Packed with nutrients, it's a satisfying lunch or supper for the family";
+"recipe description 2" = "Make our easy %@ using just a handful of ingredients. Packed with nutrients, it's a satisfying dinner for the family";
+"recipe description 3" = "Serve this delicious %@ as an easy midweek dinner for the family. You can freeze any leftovers for another day";
+"recipe description 4" = "Enjoy this %@ bake for the ultimate weekday family dinner. Serve straight from the dish with a dressed green salad";
+"recipe description 5" = "Double the ingredients in this easy %@ if you need to feed four, or quadruple for eight. This comforting dinner is perfect for midweek, and adaptable for any situation";
+
+// Search
+search = "Search";
+cuisines = "Cuisines";
+meals = "Meals";
+diets = "Diets";
+dishes = "Dishes";
+recommended = "Recommended";
+recent = "Recent searches";
+clear = "Clear";
+"search offline mode title" = "You are now offline";
+"search offline mode description" = "Please, check your Internet connection or try again later";
+"search empty mode title" = "Nothing was found";
+"search empty mode description" = "It looks like nothing could be found for the query you set";
+
+// Personal
+personal = "Personal";
+"personal whats your name" = "What's your name?";
+"personal your recipes" = "Your recipes";
+"personal favourites" = "Favourites";
+"personal empty data personal" = "Add your own recipes so that it's not so empty here";
+"personal empty data favourites" = "Your favorite recipes will be displayed here";
+
+// RecipeForm
+"form save changes question title" = "Save changes";
+"form save changes question description" = "You have made some unsaved changes. May be we should save them?";
+"form save" = "Save";
+"form cancel" = "Cancel";
+"form placeholder title" = "Title";
+"form placeholder notes" = "Notes";
+"form placeholder step description" = "What to do?";
+
+// Errors
+"close" = "Close";
+"error" = "Error";
+"error oops" = "Oops!";
+"error restart app" = "Please, restart the application and try again";
+"error server error title" = "A server error occurred";
+"error something went wrong" = "Something went wrong... Please, restart the application try again later";
+"error unexpected error" = "An unexpected error has occurred. Please, restart the application and try again";
+"error network error title" = "A network error occurred";
+"error network error description" = "Please, check your internet connection or try again later";
+"error model no recipe source" = "Unfortunately, we do not have source for this recipe";
+
+// Onboarding
+"onboarding continue" = "Continue";
+"onboarding title 1" = "Use filters";
+"onboarding title 2" = "Write down yours";
+"onboarding title 3" = "Save favourite";
+"onboarding description 1" = "Use filters to clarify your search: by diets, meals, different cuisines and even types of dishes";
+"onboarding description 2" = "Write down your own recipes in the app so that they are always at hand and can be shared";
+"onboarding description 3" = "Discover new recipes and mark them as favorites so that they are saved offline";
+
+// Models
+"breakfast" = "Завтрак";
+"brunch" = "Бранч";
+"lunchDinner" = "Обед";
+"snack" = "Перекус";
+"teatime" = "Чаепитие";
+
+"alcohol cocktail" = "Alcohol cocktails";
+"biscuits and cookies" = "Biscuits and cookies";
+"bread" = "Bread";
+"cereals" = "Cereals";
+"condiments and sauces" = "Condiments and sauces";
+"desserts" = "Desserts";
+"drinks" = "Drinks";
+"egg" = "Egg";
+"ice cream and custard" = "Ice cream and custard";
+"main course" = "Main course";
+"pancake" = "Pancake";
+"pasta" = "Pasta";
+"pastry" = "Pastry";
+"pies and tarts" = "Pies and tarts";
+"pizza" = "Pizza";
+"preps" = "Preps";
+"preserve" = "Preserve";
+"salad" = "Salad";
+"sandwiches" = "Sandwiches";
+"seafood" = "Seafood";
+"side dish" = "Side dish";
+"soup" = "Soup";
+"special occasions" = "Special occasions";
+"starter" = "Starter";
+"sweets" = "Sweets";
+
+"american" = "American";
+"asian" = "Asian";
+"british" = "British";
+"central europe" = "Central Europe";
+"chinese" = "Chinese";
+"eastern europe" = "Eastern Europe";
+"french" = "French";
+"greek" = "Greek";
+"indian" = "Indian";
+"italian" = "Italian";
+"japanese" = "Japanese";
+"korean" = "Korean";
+"mexican" = "Mexican";
+"nordic" = "Nordic";
+"world" = "World";

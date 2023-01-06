@@ -1,0 +1,128 @@
+/*
+  Localizable.strings
+  Pods
+
+  Created by Егор Бадмаев on 02.11.2022.
+  
+*/
+
+// Discover
+discover = "Сегодня";
+dishOfTheDay = "Блюдо\nдня";
+mockRecipeTitle = "вкусным блюдом";
+"discover empty collection view text" = "Here will be a list of your new culinary discoveries";
+
+cookingTime = "Время приготовления";
+servingsCount = "Количество порций";
+
+// Recipe Details
+"details title description" = "Описание";
+"details title ingredients" = "Ингредиенты";
+"Weight, g" = "Вес, гр";
+"recipe description 0" = "Наслаждайтесь нашим %@ для легкого перекуса в середине недели. Благодаря хрустящей сырной глазури он обязательно станет новым фаворитом";
+"recipe description 1" = "Внесите колорит в ваш обеденный стол с помощью нашего %@. Насыщенный питательными веществами, он станет сытным обедом или ужином для всей семьи";
+"recipe description 2" = "Приготовьте наш легкий %@, используя всего несколько ингредиентов. Насыщенный питательными веществами, это сытный ужин для всей семьи";
+"recipe description 3" = "Подавайте это вкусное %@ в качестве легкого ужина в середине недели для всей семьи. Вы можете заморозить любые остатки на другой день";
+"recipe description 4" = "Наслаждайтесь этой %@ выпечкой для идеального семейного ужина в будний день. Подавайте прямо с блюда с заправленным зеленым салатом";
+"recipe description 5" = "Увеличьте количество ингредиентов в этом простом %@ вдвое, если вам нужно накормить четверых, или вчетверо для восьмерых. Этот сытный ужин идеально подходит для середины недели и может быть адаптирован к любой ситуации";
+
+// Search
+search = "Поиск";
+cuisines = "Кухни";
+meals = "Приёмы пищи";
+diets = "Диеты";
+dishes = "Вид блюда";
+recommended = "Рекомендуем";
+recent = "Недавние";
+clear = "Очистить";
+"search offline mode title" = "Вы оффлайн";
+"search offline mode description" = "Пожалуйста, проверьте своё соеднинение с интернетом или попробуйте позже";
+"search empty mode title" = "Ничего не нашлось";
+"search empty mode description" = "Похоже, по заданному Вами запросу ничего не удалось найти";
+
+// Personal
+personal = "Личное";
+"personal whats your name" = "Как вас зовут?";
+"personal your recipes" = "Ваши рецепты";
+"personal favourites" = "Избранные";
+"personal empty data personal" = "Добавьте собственные рецепты, чтобы тут было не так пусто";
+"personal empty data favourites" = "Здесь будут отображаться ваши избранные рецепты";
+
+// RecipeForm
+"form save changes question title" = "Сохранить изменения";
+"form save changes question description" = "Вы внесли некоторые несохраненные изменения. Может, нам лучше сохранить их?";
+"form save" = "Сохранить";
+"form cancel" = "Отменить";
+"form placeholder title" = "Title";
+"form placeholder notes" = "Notes";
+"form placeholder step description" = "Что нужно сделать?";
+
+// Errors
+"close" = "Закрыть";
+"error" = "Ошибка";
+"error oops" = "Упс!";
+"error restart app" = "Пожалуйста, перезапустите приложение и попробуйте ещё раз";
+"error server error title" = "Ошибка сервера";
+"error something went wrong" = "Что-то пошло не так... Пожалуйста, перезапустите приложение и повторите попытку позже";
+"error unexpected error" = "Произошла непредвиденная ошибка. Пожалуйста, перезапустите приложение и повторите попытку";
+"error network error title" = "Проблемы с сетью";
+"error network error description" = "Пожалуйста, проверьте своё соединение с интернетом или повторите попытку позже";
+"error model no recipe source" = "К сожалению, для этого рецепта нет ссылки на источник";
+
+// Onboarding
+"onboarding continue" = "Продолжить";
+"onboarding title 1" = "Используйте фильтры";
+"onboarding title 2" = "Записывайте своё";
+"onboarding title 3" = "Сохраняйте любимое";
+"onboarding description 1" = "Используйте фильтры, чтобы уточнить ваш запрос: по диетам, приёмам пищи, различным кухням и даже видам блюд";
+"onboarding description 2" = "Записывайте собственные рецепты в приложении, чтобы они всегда были под рукой и ими можно было поделиться";
+"onboarding description 3" = "Открывайте для себя новые рецепты и отмечайте их избранными, чтобы они сохранились в оффлайн";
+
+// Models
+"breakfast" = "Завтрак";
+"brunch" = "Бранч";
+"lunchDinner" = "Обед";
+"snack" = "Перекус";
+"teatime" = "Чаепитие";
+
+"alcohol cocktail" = "Алкогольные коктейли";
+"biscuits and cookies" = "Бисквиты и печенья";
+"bread" = "Хлеб";
+"cereals" = "Крупы";
+"condiments and sauces" = "Приправы и соусы";
+"desserts" = "Десерты";
+"drinks" = "Напитки";
+"egg" = "Яйцо";
+"ice cream and custard" = "Мороженое и заварной крем";
+"main course" = "Основное блюдо";
+"pancake" = "Блины";
+"pasta" = "Паста";
+"pastry" = "Выпечка";
+"pies and tarts" = "Пироги и тарталетки";
+"pizza" = "Пицца";
+"preps" = "Заготовки";
+"preserve" = "Консервы";
+"salad" = "Салат";
+"sandwiches" = "Бутерброды";
+"seafood" = "Морепродукты";
+"side dish" = "Гарнир";
+"soup" = "Суп";
+"special occasions" = "Особые случаи";
+"starter" = "Начальный уровень";
+"sweets" = "Сладости";
+
+"american" = "Американская";
+"asian" = "Азиатская";
+"british" = "Английская";
+"central europe" = "Центральная Европа";
+"chinese" = "Китайская";
+"eastern europe" = "Восточноевропейская";
+"french" = "Французская";
+"greek" = "Греческая";
+"indian" = "Индийская";
+"italian" = "Итальянская";
+"japanese" = "Японская";
+"korean" = "Корейская";
+"mexican" = "Мексиканская";
+"nordic" = "Скандинавская";
+"world" = "Мировая";
