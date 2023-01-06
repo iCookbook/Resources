@@ -32,71 +32,91 @@ public final class Fonts {
     
     // MARK: App's fonts
     
+    /// Font: New York, size: 36, weight: bold.
     public static func largeTitle() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .largeTitle)
         return fontMetrics.scaledFont(for: newYork(ofSize: 36, weight: .bold))
     }
     
+    /// Font: New York, size: 24, weight: bold.
     public static func title() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .title1)
         return fontMetrics.scaledFont(for: newYork(ofSize: 24, weight: .bold))
     }
     
+    /// Font: system, size: 28, weight: medium.
     public static func title2() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .title1)
         return fontMetrics.scaledFont(for: .systemFont(ofSize: 28, weight: .medium))
     }
     
+    /// Font: New York, size: 18, weight: bold.
     public static func headline() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .title2)
         return fontMetrics.scaledFont(for: newYork(ofSize: 18, weight: .bold))
     }
     
+    /// Font: system, size: 18, weight: bold.
     public static func errorTitle() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .title3)
         return fontMetrics.scaledFont(for: .systemFont(ofSize: 18, weight: .bold))
     }
     
+    /// Font: New York, size: 18, weight: regular.
     public static func body() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .body)
         return fontMetrics.scaledFont(for: newYork(ofSize: 18, weight: .regular))
     }
     
+    /// Font: system, size: 18, weight: regular.
     public static func systemBody() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .body)
         return fontMetrics.scaledFont(for: .systemFont(ofSize: 18))
     }
     
+    /// Font: New York, size: 18, weight: medium.
     public static func medium() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .body)
         return fontMetrics.scaledFont(for: newYork(ofSize: 18, weight: .medium))
     }
     
+    /// Font: New York, size: 18, weight: semibold.
     public static func semibold() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .body)
         return fontMetrics.scaledFont(for: newYork(ofSize: 18, weight: .semibold))
     }
     
+    /// Font: New York, size: 16, weight: regular.
     public static func smallBody() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .callout)
         return fontMetrics.scaledFont(for: newYork(ofSize: 16, weight: .regular))
     }
     
+    /// Font: New York, size: 16, weight: medium.
     public static func smallMedium() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .caption1)
         return fontMetrics.scaledFont(for: newYork(ofSize: 16, weight: .medium))
     }
     
+    /// Font: New York, size: 16, weight: semibold.
     public static func smallSemibold() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .caption2)
         return fontMetrics.scaledFont(for: newYork(ofSize: 16, weight: .semibold))
     }
     
+    /// Font: system, size: 16, weight: medium.
     public static func subtitle() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .subheadline)
         return fontMetrics.scaledFont(for: .systemFont(ofSize: 16, weight: .medium))
     }
     
+    /// Font: system, size: 16, weight: regular.
+    public static func smallSystemBody() -> UIFont {
+        let fontMetrics = UIFontMetrics(forTextStyle: .callout)
+        return fontMetrics.scaledFont(for: .systemFont(ofSize: 16))
+    }
+    
+    /// Font: system, size: 16, weight: semibold.
     public static func buttonTitle() -> UIFont {
         let fontMetrics = UIFontMetrics(forTextStyle: .title3)
         return fontMetrics.scaledFont(for: .systemFont(ofSize: 16, weight: .semibold))

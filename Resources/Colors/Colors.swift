@@ -73,4 +73,13 @@ public enum Colors {
             return UIColor(red: 208/255, green: 208/255, blue: 210/255, alpha: 0.8)
         }
     }()
+    
+    /// The color for placeholders.
+    public static let placeholderText: UIColor = {
+        if #available(iOS 13.0, *) {
+            return UIColor.placeholderText
+        } else {
+            return UIColor(red: 60/255, green: 60/255, blue: 67/255, alpha: 0.3)
+        }
+    }()
 }

@@ -75,6 +75,17 @@ public enum Texts {
         public static let emptyFavouriteRecipes = "personal empty data favourites".localized
     }
     
+    public enum RecipeForm {
+        public static let unsavedChangesTitle = "form save changes question title".localized
+        public static let unsavedChangesDescription = "form save changes question description".localized
+        public static let save = "form save".localized
+        public static let cancel = "form cancel".localized
+        
+        public static let titlePlaceholder = "form placeholder title".localized
+        public static let notesPlaceholder = "form placeholder notes".localized
+        public static let stepDescriptionPlaceholder = "form placeholder step description".localized
+    }
+    
     public enum Errors {
         public static let close = "close".localized
         public static let error = "error".localized

@@ -48,6 +48,10 @@ public final class Images {
         public static let favourites = UIImage("suit.heart.fill")
     }
     
+    public enum RecipeForm {
+        public static let sampleStepImage = UIImage("step.photo")
+    }
+    
     public enum Onboarding {
         public static let image1 = UIImage("Filters")
         public static let image2 = UIImage("Personal")

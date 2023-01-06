@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Resources'
-  s.version          = '0.8.1'
+  s.version          = '0.8.2'
   s.summary          = 'Resources layer of the application.'
   s.homepage         = 'https://github.com/iCookbook/Resources'
   s.author           = { 'htmlprogrammist' => '60363270+htmlprogrammist@users.noreply.github.com' }

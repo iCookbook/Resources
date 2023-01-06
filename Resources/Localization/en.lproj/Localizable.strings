@@ -48,6 +48,15 @@ personal = "Personal";
 "personal empty data personal" = "Add your own recipes so that it's not so empty here";
 "personal empty data favourites" = "Your favorite recipes will be displayed here";
 
+// RecipeForm
+"form save changes question title" = "Save changes";
+"form save changes question description" = "You have made some unsaved changes. May be we should save them?";
+"form save" = "Save";
+"form cancel" = "Cancel";
+"form placeholder title" = "Title";
+"form placeholder notes" = "Notes";
+"form placeholder step description" = "What to do?";
+
 // Errors
 "close" = "Close";
 "error" = "Error";

@@ -48,6 +48,15 @@ personal = "Личное";
 "personal empty data personal" = "Добавьте собственные рецепты, чтобы тут было не так пусто";
 "personal empty data favourites" = "Здесь будут отображаться ваши избранные рецепты";
 
+// RecipeForm
+"form save changes question title" = "Сохранить изменения";
+"form save changes question description" = "Вы внесли некоторые несохраненные изменения. Может, нам лучше сохранить их?";
+"form save" = "Сохранить";
+"form cancel" = "Отменить";
+"form placeholder title" = "Title";
+"form placeholder notes" = "Notes";
+"form placeholder step description" = "Что нужно сделать?";
+
 // Errors
 "close" = "Закрыть";
 "error" = "Ошибка";
